@@ -1,0 +1,7 @@
+<% include ../partials/header %>
+
+<% books.forEach(item => { %>
+    <p><%= item.title + '-' + item.authors  %></p>
+<% }); %>
+
+<% include ../partials/footer %>

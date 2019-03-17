@@ -1,0 +1,11 @@
+<% include ../partials/header %>
+
+<form action="/add-book" method="POST">
+    <label for="booktitle">Title</label>
+    <input type="text" name="booktitle" id="book-title">
+    <label for="bookauthor">Author</label>
+    <input type="text" name="bookauthor" id="book-author">
+    <input type="submit">
+</form>
+
+<% include ../partials/footer %>
